@@ -84,9 +84,9 @@ a:hover {
 .triangle-down {
   width: 0;
 	height: 0;
-	border-left: 45px solid transparent;
-	border-right: 45px solid transparent;
-  border-top: 26px solid red;
+	border-left: 47px solid transparent;
+	border-right: 47px solid transparent;
+  border-top: 29px solid#323232;;
   display: flex;
   justify-content: center;
   align-items: center;
