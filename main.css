@@ -1,0 +1,136 @@
+@font-face {
+  font-family: MavenProRegular;
+  src: url(assets/MavenPro-Regular.ttf);
+}
+@font-face {
+  font-family: LatoRegular;
+  src: url(assets/Lato-Regular.ttf);
+}
+@font-face {
+  font-family: LatoBold;
+  src: url(assets/Lato-Bold.ttf)
+}
+
+body {
+  width: 1020px;
+  margin: auto;
+  
+}
+
+h1 {
+  overflow: hidden;
+  height: 1px;
+  width: 1px;
+  padding: 0;
+  border: 0;
+}
+.nav {
+  height: 63px;
+  background-color: #323232;
+}
+li {
+  display: inline;
+  list-style-type: none;
+  font-family: "LatoBold";
+  position: relative;
+  text-align: justify;
+  font-size: 10.3px;
+}
+.item-1 {
+  position: relative;
+  top: -50px;
+  left: 284px;
+}
+.item-2 {
+  position: relative;
+  top: -50px;
+  left: 295px;
+}
+.dote-1 {
+  position: relative;
+  top: -50px;
+  left: 289px;
+  color: #484c5f;
+}
+.item-3 {
+  position: relative;
+  top: -50px;
+  left: 431px;
+}
+.dote-2 {
+  position: relative;
+  top: -50px;
+  left: 440px;
+  color: #484c5f;
+}
+.item-4 {
+  position: relative;
+  top: -50px;
+  left: 446px;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+a:hover {
+  color: #2f9f88;
+}
+.triangle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.triangle-down {
+  width: 0;
+	height: 0;
+	border-left: 45px solid transparent;
+	border-right: 45px solid transparent;
+  border-top: 26px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.hexagon-container {
+  height: 720px;
+}
+.caption {
+  font-family: MavenProRegular;
+  font-size: 40px;
+  color: rgba(215, 252, 245, 255);
+  text-align: justify;
+}
+.subtitle {
+  font-family: MavenProRegular;
+  font-size: 24px;
+  color: rgba(32, 129, 109, 255);
+  text-align: justify;
+}
+.description {
+  font-family: LatoRegular;
+  font-size: 16px;
+  color: rgba(215, 252, 245, 255);
+  text-align: justify;
+}
+.info {
+  background-color: #2eb398;
+  height: 341px;
+
+}
+.form {
+  height: 564px;
+}
+.bottom {
+  height: 43px;
+  background-color: #222222;
+}
+.bottom-row {
+  position: relative;
+  top: 16px;
+  left: 39px;
+  font-family: MavenProRegular;
+  font-size: 8.65655pt;
+  color: rgba(69, 69, 69, 255);
+  text-align: justify;
+}
