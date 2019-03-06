@@ -2,10 +2,12 @@
   font-family: MavenProRegular;
   src: url(assets/MavenPro-Regular.ttf);
 }
+
 @font-face {
   font-family: LatoRegular;
   src: url(assets/Lato-Regular.ttf);
 }
+
 @font-face {
   font-family: LatoBold;
   src: url(assets/Lato-Bold.ttf)
@@ -14,7 +16,6 @@
 body {
   width: 1020px;
   margin: auto;
-  
 }
 
 h1 {
@@ -24,63 +25,76 @@ h1 {
   padding: 0;
   border: 0;
 }
+
 .nav {
   height: 63px;
   background-color: #323232;
 }
+
 li {
   display: inline;
   list-style-type: none;
   font-family: "LatoBold";
   position: relative;
   text-align: justify;
-  font-size: 10.3px;
+  font-size: 9px;
 }
+
 .item-1 {
-  position: relative;
-  top: -50px;
-  left: 284px;
+  position: relative;;
+  top: -57px;
+  left: 288px;
 }
+
 .item-2 {
   position: relative;
-  top: -50px;
-  left: 295px;
+  top: -57px;
+  left: 306px;
 }
+
 .dote-1 {
   position: relative;
-  top: -50px;
-  left: 289px;
+  top: -57px;
+  left: 299px;
   color: #484c5f;
 }
+
 .item-3 {
   position: relative;
-  top: -50px;
-  left: 431px;
+  top: -57px;
+  left: 444px;
 }
+
 .dote-2 {
   position: relative;
-  top: -50px;
-  left: 440px;
+  top: -57px;
+  left: 452px;
   color: #484c5f;
 }
+
 .item-4 {
   position: relative;
-  top: -50px;
-  left: 446px;
+  top: -57px;
+  left: 461px;
 }
+
 a {
   text-decoration: none;
   color: #ffffff;
 }
+
 a:hover {
   color: #2f9f88;
 }
+
 .triangle {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: auto;
+  padding-top: 13px;
 }
+
 .triangle-down {
   width: 0;
 	height: 0;
@@ -92,43 +106,111 @@ a:hover {
   align-items: center;
   margin: auto;
 }
+
 .hexagon-container {
-  height: 720px;
+  height: 692px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
+
+.hexagon {
+  width: 180px;
+  height: 210px;
+  margin: 20px;
+  transform: rotate(120deg);
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+  left: 100px;
+  top: 40px;
+}
+
+.hex-layer-1 {
+width: 100%;
+height: 100%;
+transform: rotate(-60deg);
+overflow: hidden;
+visibility: hidden;
+}
+
+.hex-layer-2 {
+width: 100%;
+height: 100%;
+transform: rotate(-60deg);
+overflow: hidden;
+visibility: visible;
+}
+
+.row {
+  display: flex;
+  
+}
+
+.one {
+  background-image: url(assets/Layer33@1X.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.two {
+  background-image: url(assets/Layer31@1X.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.three {
+  background-image: url(assets/Layer34@1X.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.four {
+  background-image: url(assets/Layer35@1X.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
 .caption {
   font-family: MavenProRegular;
   font-size: 40px;
   color: rgba(215, 252, 245, 255);
   text-align: justify;
 }
+
 .subtitle {
   font-family: MavenProRegular;
   font-size: 24px;
   color: rgba(32, 129, 109, 255);
   text-align: justify;
 }
+
 .description {
   font-family: LatoRegular;
   font-size: 16px;
   color: rgba(215, 252, 245, 255);
   text-align: justify;
 }
+
 .info {
   background-color: #2eb398;
   height: 341px;
 
 }
 .form {
-  height: 564px;
+  height: 549px;
 }
+
 .bottom {
   height: 43px;
   background-color: #222222;
 }
+
 .bottom-row {
   position: relative;
-  top: 16px;
-  left: 39px;
+  top: 14px;
+  left: 40px;
   font-family: MavenProRegular;
   font-size: 8.65655pt;
   color: rgba(69, 69, 69, 255);
