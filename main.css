@@ -109,22 +109,15 @@ a:hover {
 
 .hexagon-container {
   height: 692px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
 }
 
 .hexagon {
   width: 180px;
   height: 210px;
-  margin: 20px;
   transform: rotate(120deg);
   overflow: hidden;
   visibility: hidden;
-  position: relative;
-  left: 100px;
-  top: 40px;
+  margin: 10px;
 }
 
 .hex-layer-1 {
@@ -145,7 +138,11 @@ visibility: visible;
 
 .row {
   display: flex;
-  
+  justify-content: center;
+}
+
+.first-row {
+  margin-top: 50px;
 }
 
 .one {
@@ -168,6 +165,72 @@ visibility: visible;
 
 .four {
   background-image: url(assets/Layer35@1X.png);
+  background-repeat: no-repeat;
+  background-position: 48% 110%;
+}
+
+.second-row {
+  display: flex;
+  margin-top: -62px;
+  margin-left: 10px;
+}
+
+.five {
+  background-image: url(assets/Layer36@1X.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.six {
+  background-image: url(assets/Layer44@1X.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.seven {
+  background-image: url(assets/Layer37@1X.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.eight {
+  background-image: url(assets/Layer38@1X.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.nine {
+  background-image: url(assets/Layer39@1X.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.third-row {
+  display: flex;
+  margin-left: 110px;
+  margin-top: -63px;
+}
+
+.ten {
+  background-image: url(assets/Layer40@1X.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.eleven {
+  background-image: url(assets/Layer41@1X.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.twelve {
+  background-image: url(assets/Layer43@1X.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.thirteen {
+  background-image: url(assets/Layer42@1X.png);
   background-repeat: no-repeat;
   background-position: 50%;
 }
