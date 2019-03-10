@@ -31,6 +31,26 @@ h1 {
   background-color: #323232;
 }
 
+.nav:after {
+  content: "";
+  display: block;
+  width: 412px;
+  border: 0.6px solid #e4e9eb;
+  position: relative;
+  left: 30px;
+  top: -44px;
+}
+
+.nav:before {
+  content: "";
+  display: block;
+  width: 412px;
+  border: 0.4px solid #e4e9eb;
+  position: relative;
+  left: 582px;
+  top: 74px;
+}
+
 li {
   display: inline;
   list-style-type: none;
@@ -108,7 +128,7 @@ a:hover {
 }
 
 .hexagon-container {
-  height: 692px;
+  height: 633px;
 }
 
 .hexagon {
@@ -347,4 +367,112 @@ visibility: visible;
   font-size: 8.65655pt;
   color: rgba(69, 69, 69, 255);
   text-align: justify;
+}
+
+.person {
+  background-image: url(assets/Image@1X.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.info:after {
+  content: "";
+  display: block;
+  height: 312px;
+  border: 0.8px solid #219d84;
+  position: relative;
+  left: 99px;
+  top: -767px;
+  width: 0;
+}
+
+article:after {
+  content: "";
+  display: block;
+  height: 315px;
+  border: 0.8px solid #219d84;
+  position: relative;
+  left: 809px;
+  top: -491px;
+  width: 0;
+}
+
+article {
+  position: relative;
+  top: 65px;
+  left: 111px;
+}
+
+.caption {
+  font-family: "MavenProRegular";
+  font-size: 30px;
+  color: rgba(215, 252, 245, 255);
+  text-align: justify;
+  position: relative;
+  top: -245px;
+  right: -208px;
+}
+
+.subtitle {
+  font-family: "MavenProRegular";
+  font-size: 18px;
+  color: rgba(32, 129, 109, 255);
+  text-align: justify;
+  position: relative;
+  top: -276px;
+  left: 209px;
+}
+
+.description {
+  font-family: "LatoRegular";
+  font-size: 12px;
+  color: rgba(215, 252, 245, 255);
+  text-align: justify;
+  position: relative;
+  top: -280px;
+  width: 581px;
+  left: 209px;
+  line-height: 21px;
+}
+
+.sign {
+  height: 24px;
+  width: 24px;
+  display: inline-block;
+  margin: -2px;
+}
+
+.social {
+  position: relative;
+  top: -505px;
+  left: 755px;
+}
+
+.facebook {
+  background-image: url(assets/Facebook@1X.png);
+  background-color: #a4dbd4;
+}
+
+.twitter {
+  background-image: url(assets/Twitter@1X.png);
+}
+
+.google {
+  background-image: url(assets/Google@1X.png);
+}
+
+.pinterest {
+  background-image: url(assets/Pinterest@1X.png);
+}
+
+.linkedin {
+  background-image: url(assets/Linkedin@1X.png);
+}
+
+.dribbble {
+  background-image: url(assets/Dribbble@1X.png);
+}
+
+.form {
+  background-color: #323232;
 }
