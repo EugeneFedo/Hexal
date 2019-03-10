@@ -10,7 +10,12 @@
 
 @font-face {
   font-family: LatoBold;
-  src: url(assets/Lato-Bold.ttf)
+  src: url(assets/Lato-Bold.ttf);
+}
+
+@font-face {
+  font-family: LatoBlack;
+  src: url(assets/Lato-Black.ttf);
 }
 
 body {
@@ -357,6 +362,8 @@ visibility: visible;
 .bottom {
   height: 43px;
   background-color: #222222;
+  position: relative;
+  top: -182px;
 }
 
 .bottom-row {
@@ -473,6 +480,184 @@ article {
   background-image: url(assets/Dribbble@1X.png);
 }
 
-.form {
+footer {
   background-color: #323232;
+  height: 565px;
 }
+
+input {
+  width: 580px;
+  height: 38px;
+  background-color: #454545;
+  border: #454545;
+  color: #a3a3a3;
+}
+
+::-webkit-input-placeholder {
+  color: rgba(190, 190, 190, 255);
+  position: relative;
+  left: 15px;
+  font-family: "LatoRegular";
+  font-size: 12px;
+}
+
+textarea {
+  width: 576px;
+  height: 150px;
+  position: relative;
+  top: 0px;
+  left: 2px;
+  background-color: #454545;
+  border: #454545;
+  overflow: hidden;
+}
+
+fieldset {
+  border: none;
+  display: block;
+  float: left;
+  margin-left: 106px;
+  margin-top: 76px;
+}
+
+fieldset:after {
+  content: "";
+  display: block;
+  border: 0.6px solid #2b2b2b;
+  position: relative;
+  left: -88px;
+  top: 92px;
+  width: 957px;
+}
+
+.input-name {
+  left: 2px;
+  position: relative;
+  top: -41px;
+}
+
+.input-email {
+  position: relative;
+  top: -27px;
+  left: 2px;
+}
+
+.input-subject {
+  position: relative;
+  left: 2px;
+  top: -14px;
+}
+
+legend {
+  font-family: "MavenProRegular";
+  font-size: 30px;
+  color: rgba(224, 224, 224, 255);
+  text-align: justify;
+  position: relative;
+  top: -17px;
+}
+
+.text-info {
+  font-family: "MavenProRegular";
+  font-size: 18px;
+  color: rgba(190, 190, 190, 255);
+  text-align: justify;
+  position: relative;
+  top: -42px;
+  left: 3px;
+}
+
+.text-info-2 {
+  width: 180px;
+  height: 115px;
+  position: relative;
+  left: 723px;
+  top: -438px;
+  font-family: "LatoBlack";
+  font-size: 12px;
+  color: rgba(224, 224, 224, 255);
+  text-align: justify;
+  
+}
+.text-info-2 {
+  width: 180px;
+  height: 115px;
+  position: relative;
+  left: 723px;
+  top: -438px;
+  font-family: "LatoBlack";
+  font-size: 12px;
+  color: rgba(224, 224, 224, 255);
+  text-align: justify;
+  line-height: 24px;
+}
+
+.position {
+  background-image: url(assets/location@1X.png);
+  background-repeat: no-repeat; 
+  position: relative;
+  top: -392px;
+  left: 722px;
+}
+
+.phone {
+  background-image: url(assets/phone@1X.png);
+  background-repeat: no-repeat;
+  position: relative;
+  top: -386px;
+  left: 721px;
+}
+
+.mail {
+  background-image: url(assets/mail@1X.png);
+  background-repeat: no-repeat;
+  position: relative;
+  top: -381px;
+  left: 720px;
+}
+
+.position-text {
+  font-family: "LatoBold";
+  font-size: 12px;
+  color: rgba(190, 190, 190, 255);
+  text-align: justify;
+  position: relative;
+  left: 20px;
+  top: -3px;
+}
+
+.phone-text {
+  font-family: "LatoBold";
+  font-size: 12px;
+  color: rgba(190, 190, 190, 255);
+  text-align: justify;
+  position: relative;
+  left: 20px;
+  top: -4px;
+}
+
+.mail-text {
+  font-family: "LatoBold";
+  font-size: 12px;
+  color: rgba(190, 190, 190, 255);
+  text-align: justify;
+  position: relative;
+  left: 20px;
+  top: -3px;
+}
+
+.button-submit {
+  height: 37px;
+  width: 90px;
+  font-family: "LatoBold";
+  font-size: 15px;
+  color: rgba(215, 252, 245, 255);
+  text-align: justify;
+  background-color: #2eb398;
+  border: #2eb398;
+  text-align: center;
+  position: relative;
+  top: 38px;
+  left: -92px;
+}
+
